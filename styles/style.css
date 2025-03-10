@@ -6,3 +6,52 @@ Green: #00B172
 White: #FFF
 
 */
+
+*{
+    font-family: 'Montserrat';
+}
+body{
+    margin: 0px;
+}
+.container-head{
+    padding: 10px 0px;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    background-color: white;
+    position: fixed;
+    
+    
+    
+}
+.logo{
+    padding-left: 2%;
+}   
+.links{
+    padding-right: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    
+}
+.header{
+    margin: 0px;
+    height: 500px;
+    background-image: url("../images/landing.jpg");
+    background-size:cover;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    
+}
+h1{
+    width: 100%;
+    text-align: center;
+}
+
